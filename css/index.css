@@ -300,6 +300,13 @@
 /*图标导航结束*/
 
 /************************************图标导航结束**********************************/
+
+
+
+
+
+
+
 /*图标提示栏开始*/
 
 
@@ -351,6 +358,14 @@
 /*图标提示栏结束*/
 
 /************************************图标提示栏结束**********************************/
+
+
+
+
+
+
+
+
 /*案例展示实例开始*/
 
 /*图片公共部分*/
@@ -428,32 +443,151 @@
 
 /************************************案例展示实例结束**********************************/
 
+
+
+
+
+
+
+
+
 /*关于我们实例开始*/
+.textp
+{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.textp ul li  h3 i
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+.textp ul li
+{
+    text-align: center;
+    width: 1210px;
+    font:15px/200% "微软雅黑"
+}
 
 /*关于我们实例结束*/
 
+/************************************关于我们实例结束**********************************/
+
+
 
 /*服务流程实例开始*/
+/*li水平*/
+.textw
+{
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.textw ul li
+{
+    float: left;
+    line-height: 33px;
+}
+/*显示图片公共部分*/
+.common_he
+{
+    width: 34px;
+    height: 34px;
+}
+/*ul位置*/
+.textw ul
+{
+    overflow: hidden;
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -330px;
+}
+/*各个图标*/
+.ip
+{
+    background:url(../img/img002_call.png) no-repeat -8px 0px;
+}
+.jt
+{
+    background:url(../img/img001_111.png) no-repeat 17px 0px;
+}
+.gj
+{
+    background:url(../img/img001_112.png) no-repeat;
+}
+.dd
+{
+    background:url(../img/img001_114.png) no-repeat ;
+}
+.qi
+{
+    background:url(../img/img001_113.png) no-repeat 0px -2px;
+}
+
 
 /*服务流程实例结束*/
+/************************************关于我们实例结束**********************************/
 
 
 
 
+/*定位中间*/
+
+/*页脚开始*/
+.footer
+{
+    background: url(../img/img001_10.png) repeat-x;
+    position: relative;
+    height: 100px;
+}
+.heightw
+{
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    top: 30px;
+}
+
+.top_obj
+{
+    width: 200px;
+
+    overflow: hidden;
+    height: 30px;
+}
+/*文字水平*/
+.top_obj li
+{
+    float: left;
+    color: #000;
+    line-height: 30px;
+
+}
+/*设置横线*/
+.top_obj .line
+{
+    width: 1px;
+    height: 13px;
+    background-color: #333333;
+     margin-top: 10px;
+    margin-left: 5px;
+    margin-right:4px ;
+}
+
+/*段落设置*/
+.heightw p
+{
+    margin-left: -10px;
+    color: #000;
+}
+
+
+/*页脚结束*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/************************************编程结束,**********************************/
 
 
 
