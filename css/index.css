@@ -1,0 +1,411 @@
+/*顶部样式插入背景*/
+.topmenu_bg ul
+{
+    height:35px;
+    width: 1210px;
+    background: url(../img/img001_menu.png) repeat-x ;
+}
+
+/*顶部样式插入电话图标*/
+.blackcall
+{
+    width: 22px;
+    height: 21px;
+    background: url(../img/img003_call.png) no-repeat ;
+}
+/*顶部样式浮动 li*/
+.topmenu_bg ul li
+{
+    margin-left: 4px;
+    margin-top: 10px;
+    float: right;
+    font-size: 15px;
+    font-family: "SimSun", "宋体";
+    font-weight: bold;
+}
+/*电话号码图标*/
+.topmenu_bg ul .callnumber
+{
+    margin-top: 4px;
+    width: 150px;
+    height: 25px;
+    background: url(../img/img001_call.png) no-repeat ;
+    margin-right: 150px;
+}
+/*联系电话文字*/
+.topmenu_bg ul.calltel
+{
+  line-height: 25px;
+}
+/****************************顶部结束*******************************/
+
+
+
+
+
+
+
+
+
+/*菜单开始*/
+/*菜单样式浮动li*/
+.menu ul li
+{
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*菜单样式ul属性*/
+.menu ul
+{
+
+    height: 16px;
+    padding:50px 0;
+    width: 600px;
+    margin-right: 220px;
+
+}
+/*菜单样式设定黑色竖线*/
+.blackline
+{
+    width: 1px;
+    height: 16px;
+    background-color: red;
+    margin: 0 20px;
+}
+/*插入商标*/
+.menu .blog
+{
+    margin-top: 50px;
+    margin-left: 100px;
+    display: block;
+    width: 211px;
+    height: 46px;
+    border: solid 1px red;
+    background: url(../img/img001_blog.png) no-repeat ;
+}
+/*菜单结束*/
+/*****************************菜单结束*******************************/
+
+
+
+
+
+
+
+
+
+
+/*轮播图开始*/
+
+/*四张背景图片*/
+    /*公共部分*/
+.photo .icom_bg_img .img
+{
+    width:1208px;
+    height: 99px;
+
+}
+
+/*第一张*/
+.photo .icom_bg_img .img_a
+{
+    background: url(../img/img3_1.png) no-repeat;
+}
+/*第二张*/
+.photo .icom_bg_img .img_b
+{
+    background: url(../img/img3_1.png) no-repeat;
+}
+/*第三张*/
+.photo .icom_bg_img .img_c
+{
+    background: url(../img/img3_1.png) no-repeat;
+}
+/*四张*/
+.photo .icom_bg_img .img_d
+{
+    background: url(../img/img3_1.png) no-repeat;
+}
+
+/*中间菜单导航设置*/
+.icom_bg_img
+{
+    position: relative;
+
+}
+/*中间UL的设置*/
+.icom_bg_img .icomtext
+{
+    position: absolute;
+    top: 50%;
+    margin-top: -65px;
+    margin-left: 450px;
+
+    width: 350px;
+    height: 60px;
+    border: solid 2px red;
+}
+
+.icom_bg_img .icomtext .icomblog
+{
+    width: 47px;
+    height: 39px;
+
+    margin: 10px;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color:#ff0f0f;
+
+    background: url(../img/img001_redblog.png) no-repeat;
+
+}
+
+.icom_bg_img .icomtext .icomfont
+{
+    font-size:40px;
+    font-family:"微软雅黑";
+    font-weight: bold;
+    color: #FFF;
+    line-height: 54px;
+    letter-spacing:4px; /*字体与字体之间的距离*/
+}
+
+/*更多案例文字ul*/
+.icom_bg_img .icomtext .icon_add
+{
+    float: right;
+
+    width: 84px;
+    height: 60px;
+    margin-top: 4px;
+}
+.icom_bg_img .icomtext .icon_add li a
+{
+    color: #FFF;
+}
+.icom_bg_img .icomtext .icon_add li
+{
+    font-weight: bold;
+    color: #FFF;
+    font:16px/100% "微软雅黑";
+    padding: 5px;
+}
+
+
+/*右边客服部分*/
+.person_red_bg
+{
+    width: 29px;
+    height: 30px;
+    background-color: #c41e1d;
+    border-radius:3px 0  0  3px;
+}
+.person .person_red_bg
+{
+    position: absolute;
+    top:50%;
+    margin-top: -80px;
+    left:1179px;
+    height: 100px;
+}
+.person .person_icom
+{
+    width: 19px;
+    height: 100px;
+    background: url(../img/img001_lineobj.png) no-repeat;
+    margin-left:8px ;
+}
+.person .person_clear
+{
+    width: 17px;
+    height: 20px;
+    margin-top: -26px;
+    margin-left:8px ;
+    background: url(../img/img001_31.png) no-repeat;
+}
+
+
+/*轮播图结束*/
+/*****************************轮播图结束*******************************/
+
+
+
+
+
+
+
+/*图标导航开始*/
+
+
+
+/*样式图标导航栏li浮动*/
+.menu_img
+{
+    position: relative;
+    height: 230px;
+}
+
+/*浮动li*/
+.menu_img ul li
+{
+    float: left;
+}
+
+/*ul居中*/
+.menu_img ul
+{
+    float: left;
+    position: absolute;
+    left: 6%;
+
+
+    /*margin-left: -460px;*/
+}
+
+/*样式图标共样式*/
+.menu_img_common
+{
+    width: 153px;
+    height: 121px;
+    padding: 30px;
+
+}
+/*样式导航第一张图片*/
+.menu_img ul .menuimgA
+{
+        background: url(../img/img001_1.png) no-repeat center center;
+}
+/*样式导航第二张图片*/
+.menu_img ul .menuimgB
+{
+    background: url(../img/img001_2.png) no-repeat center center;
+}
+/*样式导航第三张图片*/
+.menu_img ul .menuimgC
+{
+    background: url(../img/img001_3.png) no-repeat  center center;
+}
+/*样式导航第四张图片*/
+.menu_img ul .menuimgD
+{
+    background: url(../img/img001_4.png) no-repeat center center ;
+}
+/*样式导航第五张图片*/
+.menu_img ul .menuimgE
+{
+    background: url(../img/img001_5.png) no-repeat center center;
+}
+
+/*图标导航结束*/
+
+/************************************图标导航结束**********************************/
+/*图标提示栏开始*/
+
+
+/*图标提示栏公共部分*/
+
+.navimg_common_s
+{
+    display: block;
+    width: 1210px;
+    height: 60px;
+    position: relative;
+    background: url(../img/img012.png) repeat-x ;
+    margin-top: 9px;
+}
+
+.navimg_common_i
+{
+    display: block;
+    width: 143px;
+    height: 59px;
+    top: 5px;
+    left: 50%;
+    margin-left: -71px;
+    position: absolute;
+
+}
+
+/*图标提示栏exhibition部分*/
+.navimg_common_i_imgA
+{
+    background: url(../img/img00.png) no-repeat ;
+}
+
+/*图标提示栏关于我们部分*/
+.navimg_common_i_imgB
+{
+    top: 4px;
+    background: url(../img/img02.png) no-repeat ;
+}
+
+/*图标提示栏服务部分*/
+.navimg_common_i_imgC
+{
+    top: 9px;
+    width: 250px;
+    margin-left: -115px;
+    background: url(../img/img03.png) no-repeat ;
+}
+/*图标提示栏结束*/
+
+/************************************图标提示栏结束**********************************/
+/*案例展示实例开始*/
+
+
+
+
+
+
+
+/*案例展示实例结束*/
+
+/*关于我们实例开始*/
+
+/*关于我们实例结束*/
+
+
+/*服务流程实例开始*/
+
+/*服务流程实例结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
