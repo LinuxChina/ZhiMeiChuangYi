@@ -353,13 +353,80 @@
 /************************************图标提示栏结束**********************************/
 /*案例展示实例开始*/
 
+/*图片公共部分*/
+/*公共部分高度和宽度*/
+.obj_common
+{
+    width: 173px;
+    height: 232px;
+}
 
 
+/*顶上间距*/
+.obj_show
+{
+    margin-top: 45px;
+}
+/*每项的宽度和撑开*/
+.obj_show .setwidth
+{
+    margin-left: 20px;
+    width: 180px;
+}
 
+/*文字公共部分*/
+.setwidth .obj_Ctext
+{
+    display: block;
+    width: 180px;
 
-
-
+    color: red;
+    font-weight: bold;
+}
+.setwidth .obj_Etext
+{
+    width: 180px;
+    display: inline-block;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.obj_color
+{
+    width: 152px;
+    padding: 10px;
+    background-color: #2d3237;
+    margin-left: 1px;
+}
+/*分别设置图片*/
+/*第一张和第二张*/
+.obj_img
+{
+    background: url(../img/img002_2.png) no-repeat;
+}
+/*第二张*/
+.obj_imgA
+{
+    background: url(../img/img002_2.png) no-repeat;
+}
+/*第三张*/
+.obj_imgB
+{
+    background: url(../img/img002_2.png) no-repeat;
+}
+/*第四张*/
+.obj_imgC
+{
+    background: url(../img/img002_2.png) no-repeat;
+}
+/*第五张*/
+.obj_imgD
+{
+    background: url(../img/img002_2.png) no-repeat;
+}
 /*案例展示实例结束*/
+
+
+/************************************案例展示实例结束**********************************/
 
 /*关于我们实例开始*/
 
